@@ -1,3 +1,18 @@
+alert("selamat datang di kelas ini ... ");
+var nama = prompt("masukkan nama anda : ");
+document.write("selamat datang kak " + nama + "<br>");
+document.write("tetap semangat ");
+
+var bilangan1 = parseInt(prompt("masukkan bilangan 1"));
+var bilangan2 = parseInt(prompt("masukkan bilangan 2"));
+var x = bilangan2 + bilangan1;
+document.write(x);
+document.write("<br>");
+document.write(bilangan1 > bilangan2);
+document.write("<br>");
+document.write(bilangan1 < bilangan2);
+document.write(bilangan1 > bilangan2 && bilangan2 == bilangan1);
+
 //switch case
 var penampung = prompt("halo isi nilai Matematika anda : ");
 switch (true) {
